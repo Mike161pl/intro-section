@@ -13,6 +13,11 @@ body {
 	scroll-behavior: smooth;
 	height: 100%;
 }
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
 .logo {
 	display: block;
 	padding: 3rem;
@@ -95,7 +100,7 @@ a {
 	right: 2rem;
 	padding: 1rem;
 	background-color: hsl(0, 0%, 98%);
-	background-image: url('../img/icon-close-menu.svg');
+	background-image: url('../img/icon-menu.svg');
 	background-position: center;
 	border: none;
 	cursor: pointer;
@@ -178,7 +183,7 @@ a {
 		width: 100%;padding: 2rem;
 		justify-content: space-around;
 		img{
-			padding:2rem 4rem;
+			padding:2rem 3rem;
 		}
 	}
 }
